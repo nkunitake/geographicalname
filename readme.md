@@ -17,4 +17,5 @@
 - ほとんどのAPIで情報の受け取り方が全然分からないかった。APIの叩き方もJSON等での情報の受け取り方も分からず、作業を進めるのに難儀した。今後PHPなど使える言語を増やしながら、使いたいAPIを正しく利用できるようになっていきたい。
 
 ## URL
-
+https://nkunitake.github.io/geographicalname/
+※API keyは不要のAPIを利用しています。
