@@ -1,0 +1,307 @@
+/* 共通 */
+.text-center{
+    text-align: center;
+}
+
+
+/* ヘッダー */
+.top-wrapper{
+  margin: 0 auto;
+  height: 100px;
+  background-image: url(../img/KV2.jpg);
+  background-position: center;
+  background-size: cover;
+  	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+/* サーチ */
+.search-wrapper{
+    margin: 10px 0 20px;
+    	display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+
+.result-wrapper{
+    border:1px solid #000;
+    width: 500px;
+}
+
+.search-title{
+    color:#000; background-color:#ff9b00cf;
+}
+
+.search-status{
+    display: flex;
+    justify-content: center;
+}
+
+/* 得点 */
+.score-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 300px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.point-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.point-zone{
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn{
+    width: 100px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    padding: 5px; 
+    display: inline-block; 
+    text-align: center; 
+    letter-spacing: 2px; 
+    color: #fff; 
+    background-color: #ed576c; 
+    /* border-bottom: 5px solid #c5394d;  */
+    border-radius: 5px;
+}
+
+
+/* カード */
+.card-area{
+    margin: 0 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    position: relative;
+    perspective: 500px;
+}
+
+.fuda {
+    position: absolute;
+    transition: 2s;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+.csize {
+    width: 150px;
+    height: 180px;
+    margin: 0 50px 10px 50px;
+}
+
+/* 1枚目 */
+#omote1 {
+    transform: rotateY(180deg);
+    background: aliceblue;
+    border: 2px solid black;
+    text-align: center;
+    padding: 60px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ura1 {
+    transform: rotateY(0deg);
+    background: #fffacd;
+    border: 10px double black;
+    background-size: 20px 20px;
+}
+
+#tg01:checked~#omote1 {
+    transform: rotateY(0deg);
+}
+
+#tg01:checked~#ura1 {
+    transform: rotateY(-180deg);
+}
+
+/* 2枚目 */
+#omote2 {
+    transform: rotateY(180deg);
+    background: aliceblue;
+    border: 2px solid black;
+    text-align: center;
+    padding: 65px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ura2 {
+    transform: rotateY(0deg);
+    background: #fffacd;
+    border: 10px double black;
+    background-size: 20px 20px;
+}
+
+#tg02:checked~#omote2 {
+    transform: rotateY(0deg);
+}
+
+#tg02:checked~#ura2 {
+    transform: rotateY(-180deg);
+}
+
+/* 3枚目 */
+#omote3 {
+    transform: rotateY(180deg);
+    background: aliceblue;
+    border: 2px solid black;
+    text-align: center;
+    padding: 65px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ura3 {
+    transform: rotateY(0deg);
+    background: #fffacd;
+    border: 10px double black;
+    background-size: 20px 20px;
+}
+
+#tg03:checked~#omote3 {
+    transform: rotateY(0deg);
+}
+
+#tg03:checked~#ura3 {
+    transform: rotateY(-180deg);
+}
+
+/* 4枚目 */
+#omote4 {
+    transform: rotateY(180deg);
+    background: aliceblue;
+    border: 2px solid black;
+    text-align: center;
+    padding: 65px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ura4 {
+    transform: rotateY(0deg);
+    background: #fffacd;
+    border: 10px double black;
+    background-size: 20px 20px;
+}
+
+#tg04:checked~#omote4 {
+    transform: rotateY(0deg);
+}
+
+#tg04:checked~#ura4 {
+    transform: rotateY(-180deg);
+}
+
+/* 5枚目 */
+#omote5 {
+    transform: rotateY(180deg);
+    background: aliceblue;
+    border: 2px solid black;
+    text-align: center;
+    padding: 65px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ura5 {
+    transform: rotateY(0deg);
+    background: #fffacd;
+    border: 10px double black;
+    background-size: 20px 20px;
+}
+
+#tg05:checked~#omote5 {
+    transform: rotateY(0deg);
+}
+
+#tg05:checked~#ura5 {
+    transform: rotateY(-180deg);
+}
+
+/* 6枚目 */
+#omote6 {
+    transform: rotateY(180deg);
+    background: aliceblue;
+    border: 2px solid black;
+    text-align: center;
+    padding: 65px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ura6 {
+    transform: rotateY(0deg);
+    background: #fffacd;
+    border: 10px double black;
+    background-size: 20px 20px;
+}
+
+#tg06:checked~#omote6 {
+    transform: rotateY(0deg);
+}
+
+#tg06:checked~#ura6 {
+    transform: rotateY(-180deg);
+}
+
+/* 7枚目 */
+#omote7 {
+    transform: rotateY(180deg);
+    background: aliceblue;
+    border: 2px solid black;
+    text-align: center;
+    padding: 65px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ura7 {
+    transform: rotateY(0deg);
+    background: #fffacd;
+    border: 10px double black;
+    background-size: 20px 20px;
+}
+
+#tg07:checked~#omote7 {
+    transform: rotateY(0deg);
+}
+
+#tg07:checked~#ura7 {
+    transform: rotateY(-180deg);
+}
+
+/* 8枚目 */
+#omote8 {
+    transform: rotateY(180deg);
+    background: aliceblue;
+    border: 2px solid black;
+    text-align: center;
+    padding: 65px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ura8 {
+    transform: rotateY(0deg);
+    background: #fffacd;
+    border: 10px double black;
+    background-size: 20px 20px;
+}
+
+#tg08:checked~#omote8 {
+    transform: rotateY(0deg);
+}
+
+#tg08:checked~#ura8 {
+    transform: rotateY(-180deg);
+}
